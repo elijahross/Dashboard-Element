@@ -1,14 +1,11 @@
-import React from 'react'
-import { Card, Text, Metric } from "@tremor/react";
+"use client";
+import React from "react";
 
 export default function Dashboard() {
-
-    return(
-        <div>
-  <Card className="max-w-xs mx-auto">
-    <Text>Sales</Text>
-    <Metric>$ 34,743</Metric>
-  </Card>
-        </div>
-    )
+  return (
+    <div>
+      <h1>Sales</h1>
+      <h2> Webfront Development </h2>
+    </div>
+  );
 }
